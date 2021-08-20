@@ -4,7 +4,7 @@ import cv2
 if __name__ == '__main__':
 
 
-    img = cv2.imread('8.jpg', True)
+    img = cv2.imread('images/1.jpg', True)
     img_grey = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     img_grey = cv2.resize(img_grey, (1000, 1000))
     img_grey = img_grey[300:700,300:700]
